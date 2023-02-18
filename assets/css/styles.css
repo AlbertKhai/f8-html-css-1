@@ -3,7 +3,7 @@
 }
 
 :root {
-    --primary-color: #0F1B4C;
+    --primary-color: #0f1b4c;
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 1.6rem;
 }
 
@@ -38,7 +38,7 @@ a {
     text-align: center;
 
     background: var(--primary-color);
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .btn:hover {
@@ -56,7 +56,7 @@ a {
 .header {
     position: relative;
     height: 100vh;
-    background: #E6F0FF;
+    background: #e6f0ff;
 }
 
 .navbar {
@@ -70,14 +70,13 @@ a {
     margin-left: 50px;
 }
 
-
 .navbar ul a {
     padding: 8px 14px;
 
     font-weight: 500;
     font-size: 1.4rem;
 
-    color: #4F5361;
+    color: #4f5361;
 }
 
 .navbar ul a:hover {
@@ -93,7 +92,6 @@ a {
     font-size: 1.4rem;
 
     color: var(--primary-color);
-
 }
 
 .navbar .action-btn {
@@ -106,7 +104,7 @@ a {
     margin-top: 130px;
 }
 
-.hero .infor {
+.hero .info {
     width: 51%;
 }
 
@@ -127,7 +125,6 @@ a {
     /* or 119% */
 
     color: #000336;
-
 }
 
 .hero .desc {
@@ -138,7 +135,7 @@ a {
     line-height: 1.78;
     /* or 178% */
 
-    color: #5A6473;
+    color: #5a6473;
 }
 
 .hero-cta {
@@ -170,7 +167,7 @@ a {
     line-height: 1.25;
     /* identical to box height, or 125% */
 
-    color: #7D8589;
+    color: #7d8589;
 }
 
 .clients .row-desc {
@@ -179,10 +176,23 @@ a {
 
 .clients .images {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+
+    margin-top: 70px;
+}
+
+.clients .images a {
+    display: flex;
     align-items: center;
 
-    margin-top: 96px;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* =========================================  Guides =========================================  */
@@ -202,11 +212,10 @@ a {
     text-align: center;
 
     color: #000339;
-
 }
 
 .guides .sub-title::before {
-    content: '';
+    content: "";
 
     position: absolute;
     top: -10px;
@@ -232,7 +241,7 @@ a {
 
     text-align: center;
 
-    color: #5A6473;
+    color: #5a6473;
 }
 
 .list-guide {
@@ -252,8 +261,7 @@ a {
     font-size: 2rem;
     line-height: 1.1;
 
-    color: #3B3C45;
-
+    color: #3b3c45;
 }
 
 .guide-item .link {
@@ -262,8 +270,7 @@ a {
     font-weight: 600;
     font-size: 1.4rem;
 
-    color: #0689FF;
-
+    color: #0689ff;
 }
 
 .guide-item .arrow {
@@ -285,11 +292,10 @@ a {
 .featured {
     margin-top: 41px;
     padding: 110px 0;
-    background: #F5FAFE;
+    background: #f5fafe;
 }
 
 .featured .sub-title {
-
     font-weight: 600;
     font-size: 3.5rem;
     line-height: 1;
@@ -308,7 +314,7 @@ a {
     font-size: 1.6rem;
     line-height: 1.88;
 
-    color: #5A6473;
+    color: #5a6473;
 }
 
 .featured .link {
@@ -317,7 +323,7 @@ a {
     font-weight: 600;
     font-size: 1.8rem;
 
-    color: #0689FF;
+    color: #0689ff;
 }
 
 .featured .link .arrow {
@@ -364,10 +370,10 @@ a {
     line-height: 1.5;
     word-break: break-all;
 
-    color: #A3A6AB;
+    color: #a3a6ab;
 }
 
-.featured .item .infor {
+.featured .item .info {
     margin-top: 21px;
     display: flex;
     align-items: center;
@@ -383,8 +389,7 @@ a {
     font-size: 1.4rem;
     letter-spacing: 0.01em;
 
-
-    color: #4D4D52;
+    color: #4d4d52;
 }
 
 /* ========================================= Stats ====================================== */
@@ -402,11 +407,11 @@ a {
 }
 
 .stats .img-block,
-.stats .infor {
+.stats .info {
     width: 50%;
 }
 
-.stats .infor {
+.stats .info {
     padding: 79px 0 0 165px;
 }
 
@@ -445,13 +450,13 @@ a {
     line-height: 1.5;
     /* or 150% */
 
-    color: #A7A7A7;
+    color: #a7a7a7;
 }
 
 .stats-trend .separate {
     height: 1.2px;
     margin-top: 25px;
-    background: #E9E9E9;
+    background: #e9e9e9;
 }
 
 .stats .avatar-block {
@@ -479,8 +484,7 @@ a {
     letter-spacing: -0.02em;
 
     color: #fff;
-    background: var(--bg-color, #0F1B4C);
-
+    background: var(--bg-color, #0f1b4c);
 }
 
 .stats .avatar:first-child {
@@ -524,7 +528,7 @@ a {
     background: #000339;
 }
 
-.stats .infor .desc {
+.stats .info .desc {
     width: 309px;
     margin-top: 20px;
 
@@ -533,8 +537,7 @@ a {
     line-height: 1.88;
     /* or 188% */
 
-    color: #5A6473;
-
+    color: #5a6473;
 }
 
 .stats .row-qty {
@@ -553,7 +556,7 @@ a {
     margin-top: 24px;
     font-weight: 500;
     font-size: 18px;
-    color: #7B8087;
+    color: #7b8087;
 }
 
 /* ========================================= Subscription ====================================== */
@@ -571,7 +574,7 @@ a {
     background: #063183;
 }
 
-.subscription .infor {
+.subscription .info {
     width: 671px;
     padding: 80px;
 }
@@ -581,7 +584,7 @@ a {
     font-size: 3.5rem;
     line-height: 1.5;
 
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .subscription .desc {
@@ -590,7 +593,7 @@ a {
     font-size: 1.6rem;
     line-height: 1.88;
 
-    color: #FFFFFF;
+    color: #ffffff;
     opacity: 0.75;
 }
 
@@ -623,12 +626,11 @@ a {
 }
 
 .footer .heading {
-    font-family: 'Lato';
+    font-family: "Lato";
     font-weight: 700;
     font-size: 2rem;
 
-    color: #1C1C1D;
-
+    color: #1c1c1d;
 }
 
 .footer .list,
@@ -645,7 +647,7 @@ a {
     font-weight: 400;
     font-size: 1.6rem;
     white-space: nowrap;
-    color: #7A7A7E;
+    color: #7a7a7e;
 }
 
 .footer .desc {
@@ -667,7 +669,7 @@ a {
 }
 
 .footer .social-link:hover {
-    background: #F9F9F9;
+    background: #f9f9f9;
     border-radius: 3px;
 }
 
@@ -682,5 +684,5 @@ a {
     font-size: 1.4rem;
     line-height: 21px;
 
-    color: #C2C2C2;
+    color: #c2c2c2;
 }
