@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -407,7 +412,7 @@ a {
 /* ========================================= Stats ====================================== */
 .stats {
     margin-top: 75px;
-    padding: 50 0;
+    padding: 50px 0;
 }
 
 .stats .content {
